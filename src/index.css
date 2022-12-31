@@ -13,7 +13,7 @@ body{
 
 
 h1,h4,p,a{
-  color: rgb(225, 59, 87);
+  color: rgb(218, 59, 85);
   text-decoration: none;
 }
 
@@ -43,6 +43,17 @@ ul{
   color: #fff;
   transition: 0.5s;  
 }
+
+.icons-buttons{
+  display: flex;
+  justify-content: center;
+  grid-gap: 3rem;
+  align-items: center;
+}
+
+
+
+
 
 
 

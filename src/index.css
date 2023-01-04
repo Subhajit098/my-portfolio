@@ -8,7 +8,8 @@
 }
 
 body{
-  background: rgb(26, 19, 19);
+  background: rgb(3, 1, 16);
+  opacity: 0.8;
 }
 
 
@@ -39,7 +40,7 @@ ul{
 }
 
 .btn:hover{
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(228, 34, 66, 0.484);
   color: #fff;
   transition: 0.5s;  
 }

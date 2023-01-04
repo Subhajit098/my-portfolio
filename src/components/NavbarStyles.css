@@ -9,8 +9,18 @@
     z-index: 10;
 }
 
+h1{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.zindex{
+    display: none;
+}
+
+
 .header-bg{
-    background-color: rgba(16, 15, 15, 0.8);
+    background-color: rgba(34, 25, 25, 0.8);
     transition: 0.5s;
 }
 

@@ -15,7 +15,7 @@ const Title = () => {
         </div>
          <div className='content'>
           <p>HI, I'M SUBHAJIT</p>
-          <h1>Tech Enthussiast</h1>
+          <h1>a Techie</h1>
 
           <div className='icons-buttons'>
           <a href="https://www.linkedin.com/in/subhajit-dey-75b8711ba/" ><BsLinkedin size={30} style={{color:"white"}}/></a>

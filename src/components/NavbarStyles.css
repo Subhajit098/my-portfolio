@@ -10,8 +10,8 @@
 }
 
 h1{
-    margin-left: 10px;
-    margin-top: 15px;
+    margin-left: 0px;
+    margin-top: 15px; 
 }
 
 .zindex{
@@ -20,7 +20,7 @@ h1{
 
 
 .header-bg{
-    background-color: rgba(34, 25, 25, 0.8);
+    background-color: rgba(48, 37, 37, 0.8);
     transition: 0.5s;
 }
 

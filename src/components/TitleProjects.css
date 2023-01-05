@@ -37,6 +37,10 @@
     margin-top: 7px;
 }
 
+.btn-margin{
+    margin-top: 15px;
+}
+
 @media screen and (max-width:640px)
 {
     .hero-img h1{

@@ -24,7 +24,7 @@ const ContactForm = () => {
                     </div>
 
                    <div className="center-element">
-                   <textarea name="message" cols="30" row="6" autoComplete="on" placeholder="Enter your message" required>
+                   <textarea name="message" cols="30" row="6" autoComplete="on" placeholder="Enter your message" required >
                     </textarea>
                    </div>
 

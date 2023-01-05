@@ -5,13 +5,13 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    height: 100%;
+    height: 90%;
 }
 
 .about .left{
     text-align: center;
     margin: auto;
-    padding: 1rem;
+    padding: 0.8rem;
     max-width: 690px;
 }
 
@@ -45,4 +45,4 @@
 
 
 
-
+ 

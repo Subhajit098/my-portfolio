@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Title.css";
+import { Typewriter } from 'react-simple-typewriter'
 import { BsLinkedin} from "react-icons/bs";
 import { FaQuora,FaGithub } from "react-icons/fa";
 import { Link } from 'react-router-dom';
@@ -15,7 +16,21 @@ const Title = () => {
         </div>
          <div className='content'>
           <p>HI, I'M SUBHAJIT</p>
-          <h1>a Techie</h1>
+          <h1>a {""}
+
+          <span style={{ color: 'hsl(351deg 56% 97%)', fontWeight: 'bold' }}>
+          {/* Style will be inherited from the parent element */}
+          <Typewriter
+            words={['Web Developer', 'Techie', 'Self Believer']}
+            loop={0 | false}
+            cursor
+            cursorStyle='_'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          />
+        </span>
+          </h1>
 
           <div className='icons-buttons'>
           <a href="https://www.linkedin.com/in/subhajit-dey-75b8711ba/" ><BsLinkedin size={30} style={{color:"white"}}/></a>
@@ -25,6 +40,11 @@ const Title = () => {
           <a href="https://www.quora.com/profile/Subhajit-Dey-198" ><FaQuora size={30} style={{color:"white"}}/></a>
 
           </div>
+
+          <button className='btn btn-projects'><Link to="/Project" >Projects</Link></button>
+
+          <button className='btn btn-projects'><Link to="/Project" >Contact</Link></button>
+
          </div>
     </div>
   )

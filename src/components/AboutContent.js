@@ -6,7 +6,7 @@ import myImg from "../assets/cropped.png";
 const AboutContent = () => {
   return (
     <div className="about">
-        <div className="left">
+         <div className="left">
           <h1>About me...</h1>
           <p>I am a 3rd year student in NIT Durgapur pursuing ECE. I have prior experience in the backend and frontend technologies including React, Node, MongoDB, Express, Python, Javascript, Django, MySQL, Bootstrap and sound knowledge of C++, Object Oriented Programming.</p>
           <Link to="/contact">
@@ -27,3 +27,9 @@ const AboutContent = () => {
 }
 
 export default AboutContent
+
+
+
+
+
+

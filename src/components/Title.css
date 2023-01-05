@@ -49,7 +49,7 @@
 }
 
 .btn-projects{
-    margin: 30px 15px;
+    margin: 10px 15px;
 }
 
 @media screen and (max-width:640px)
@@ -69,11 +69,11 @@
     }
 }
 
-@media screen and (max-width:690px)
+/* @media screen and (max-width:690px)
 {
     .btn-projects{
-        margin: 13px 15px;
+        margin-top: 5px;
     } 
-}
+} */
 
 

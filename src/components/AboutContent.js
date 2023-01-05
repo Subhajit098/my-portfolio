@@ -13,7 +13,7 @@ const AboutContent = () => {
             <button className="btn">Contact me</button>
           </Link>
           <div>
-          <a href="https://mantine.dev/others/carousel/"><button className="btn btn-resume">Resume</button></a>
+          <a href="https://mantine.dev/others/carousel/"><button className="btn btn-resume">My CV</button></a>
           </div>
         </div>
 

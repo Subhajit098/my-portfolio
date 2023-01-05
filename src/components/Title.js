@@ -41,9 +41,9 @@ const Title = () => {
 
           </div>
 
-          <button className='btn btn-projects'><Link to="/Project" >Projects</Link></button>
+          <button className='btn btn-projects'><Link to="/Project">Projects</Link></button>
 
-          <button className='btn btn-projects'><Link to="/Project" >Contact</Link></button>
+          <button className='btn btn-projects'><Link to="/Contact">Contact</Link></button>
 
          </div>
     </div>

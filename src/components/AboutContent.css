@@ -49,6 +49,14 @@
     margin: 20px 0;
 }
 
+.left p a{
+    text-decoration: underline;
+}
+
+.left p a:hover{
+    color: rgb(243, 145, 158);
+}
+
 @media (max-width:1280px) and (min-width:740px)
 {
     .about .left{

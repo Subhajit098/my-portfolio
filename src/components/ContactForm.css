@@ -68,7 +68,7 @@ input,textarea{
 
 textarea{
     resize: none;
-    max-width: 90%;
+    max-width: 95%;
     height: 150px;
 }
 

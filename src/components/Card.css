@@ -8,7 +8,7 @@
 }
 
 .card{
-    width: 300px;
+    width: 310px;
     /* height: 400px; */
     margin: 20px 30px;
     border-radius: 15px;
@@ -77,7 +77,7 @@
 
 @media screen and (max-width:737px) {
     .card{
-        width: 600px;
+        width: 620px;
     }
 }
 

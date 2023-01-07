@@ -1,0 +1,141 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.card{
+    width: 300px;
+    /* height: 400px; */
+    margin: 20px 30px;
+    border-radius: 15px;
+    border: 5px solid rgb(244, 167, 180);
+}
+
+.card-image img{
+    width: 100%;
+    background-size: cover;
+}
+
+.card-image{
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-1{
+    background-image: url("../assets/bg-other.jpg");
+}
+
+.card-2{
+    background-image: url("../assets/main_bg.jpg");
+}
+
+.card-3{
+    background-image: url("../assets/github_profile.jpg");
+}
+
+.card h2{
+    padding: 5px;
+    color: rgb(171, 24, 36);
+    text-decoration:underline;
+}
+
+.card p{
+    padding: 4px;
+    margin-bottom: 15px;
+}
+
+.card a{
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 10px 50px;
+}
+
+.card:hover{
+    background-color: rgb(62, 62, 62);
+    color:white;
+    cursor: pointer;
+    transform: scale(1.10);
+    transition: all 1s ease;
+}
+
+@media (min-width:737px) and (max-width:400px)
+{
+    .card{
+        margin: 20px 10px;
+    }
+}
+
+@media screen and (max-width:737px) {
+    .card{
+        width: 600px;
+    }
+}
+
+@media (min-width:746px) and (max-width:1086px)
+{
+    /* 1086 746 */
+    .card{
+        /* margin: 20px 10px; */
+        width: 650px;
+    }
+}
+
+@media (min-width:1082px) and (max-width:1436px){
+.card{
+    width: 370px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .card{
+    overflow: hidden;
+    border:5px  solid rgb(206, 56, 91);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+    height: 350px;
+    width: 400px;
+}
+
+.card-img{
+    height: 10rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-title{
+    text-align: center;
+    color: white;
+}
+
+.card-desc{
+    text-align: center;
+    display: inline-block;
+} */
+
+

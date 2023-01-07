@@ -46,6 +46,10 @@ h1{
     cursor: pointer;
 }
 
+h1 img:hover{
+    transform: scale(1.25);
+}
+
 @media screen and (max-width:1040px)
 {
     .nav-menu{
@@ -77,5 +81,12 @@ h1{
 
     .hamburger{
         display: initial;
+    }
+}
+
+@media screen and (max-width:640px)
+{
+    h1 img:hover{
+        transform: scale(1.10);
     }
 }

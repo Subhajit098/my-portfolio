@@ -15,8 +15,10 @@
     max-width: 690px;
 }
 
+/* max-width: 690px; */
+
 .about .left p{
-    margin: 1.2rem 0;
+    margin: 2.4rem 0;
 }
 
 .about .right{
@@ -38,9 +40,35 @@
 
 .btn-resume{
     width: 20%;
-    margin-top: 20px;
+    margin-top: 36px;
 } 
 
+.contact-btn{
+    max-width: 20%;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+@media (max-width:1280px) and (min-width:740px)
+{
+    .about .left{
+        /* text-align: center;
+        margin: auto;
+        padding: 0.8rem; */
+        /* width: 40%; */
+    }
+
+    /* .about .right{
+        max-width: 490px;
+        
+    }
+    .about .right{
+        margin-right: 50px;
+    }
+    .about .left{
+        margin-left: 30px;
+    } */
+}
 
 
 

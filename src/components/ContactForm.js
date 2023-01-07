@@ -14,7 +14,7 @@ const ContactForm = () => {
 
         <div className="container">
 
-                <div className="container-flex">
+                <div className="container-flex form-container-flex">
 
                 <form action="https://formspree.io/f/mknanowg" method="POST" className="container-form">
                 <div className="center-element"> 

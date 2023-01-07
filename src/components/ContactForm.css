@@ -27,8 +27,8 @@ h2.contact-heading{
 
 .container-flex h2{
     color:white;
-    margin-top:13px;
-    margin-bottom: 7px;
+    margin-top:3px;
+    margin-bottom: 4px;
     padding: 4px 0;
     text-decoration: underline;
     font-size: 40px;
@@ -68,6 +68,12 @@ input,textarea{
 
 textarea{
     resize: none;
+    max-width: 90%;
+    height: 150px;
+}
+
+.form-container-flex{
+    width:400px;
 }
 
 @media (min-width:700px) and (max-width:1037px){
@@ -78,9 +84,12 @@ textarea{
 }
 
 @media (max-width:700px) and (min-width:660px){
+    .container{
+        align-items: center;
+    }
     .container-flex{
         margin: 5px 20px;
-        width: 200px;
+        width: 300px;
     }
 }
 

@@ -33,11 +33,11 @@ const Title = () => {
           </h1>
 
           <div className='icons-buttons'>
-          <a href="https://www.linkedin.com/in/subhajit-dey-75b8711ba/" ><BsLinkedin size={30} style={{color:"white"}}/></a>
+          <a href="https://www.linkedin.com/in/subhajit-dey-75b8711ba/" ><BsLinkedin size={30} className="social-icons"/></a>
 
-          <a href="https://github.com/Subhajit098" ><FaGithub size={30} style={{color:"white"}}/></a>
+          <a href="https://github.com/Subhajit098" ><FaGithub size={30} className="social-icons"/></a>
 
-          <a href="https://www.quora.com/profile/Subhajit-Dey-198" ><FaQuora size={30} style={{color:"white"}}/></a>
+          <a href="https://www.quora.com/profile/Subhajit-Dey-198" ><FaQuora size={30} className="social-icons"/></a>
 
           </div>
 

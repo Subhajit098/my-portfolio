@@ -43,6 +43,7 @@ ul{
   background: rgba(228, 34, 66, 0.484);
   color: #fff;
   transition: 0.5s;  
+  transform: scale(1.09);
 }
 
 .icons-buttons{
@@ -52,6 +53,16 @@ ul{
   align-items: center;
   margin-bottom: 20px;
 }
+
+.social-icons{
+  color: rgb(246, 202, 202);
+}
+
+.social-icons:hover{
+  transform: scale(1.08);
+  color: white;
+}
+
 
 
 

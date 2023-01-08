@@ -1,0 +1,30 @@
+.float-btn{
+    position:fixed;
+    bottom:40px;
+    right:40px;
+    height:60px;
+    width:60px;
+    font-size:50px;
+    cursor:pointer;
+    text-align:center;
+    box-shadow:2px 2px 7px #999;
+    border-radius:50px;
+    color:rgb(235,35,75);
+    border:none;
+    background-color:rgb(223, 205, 208);
+}
+
+.float-btn:hover{
+    background-color: rgb(253, 253, 253);
+    transition: 0.7s;
+    transform:scale(1.03);
+}
+
+@media screen and (min-width:800px){
+    .float-btn{
+        height: 70px;
+        width: 70px;
+        right: 60px;
+        bottom: 50px;
+    }
+}

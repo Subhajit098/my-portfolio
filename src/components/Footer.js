@@ -11,12 +11,9 @@ const Footer = () => {
             <div className="footer-container">
 
                 <div className="left">
-                    <h4>Lets talk About Projects🙂</h4>
+                    <h4>Lets talk About Projects and Technologies🙂</h4>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                        optio, eaque rerum! Provident similique accusantium nemo autem.
+                        What are you views on the upcoming technologies and their applications ? I am thrilled to and bamboozled at the same time to see the power of AI and Machine Learning softwares. So,lets connect and build some exciting projects together and share innovative ideas. 
                     </p>
                 </div>
 

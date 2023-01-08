@@ -74,7 +74,7 @@ a.disabled:hover{
 }
 
 .card:hover{
-    background-color: rgb(62, 62, 62);
+    background-color: rgb(66, 57, 57);
     color:white;
     cursor: pointer;
     transform: scale(1.10);

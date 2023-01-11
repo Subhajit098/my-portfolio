@@ -23,7 +23,7 @@ const Card = (props) => {
         <SiMongodb size={30} style={{color:"white"}}/>
         </div>
         <div className="active-buttons">
-        <a href="#" className="btn-card">SOURCE CODE</a>
+        <a href="#" className="btn-card">SOURCE</a>
         <a className="btn-card disabled">DEMO</a>
         </div>
       </div>
@@ -38,7 +38,7 @@ const Card = (props) => {
         <FaReact size={30} style={{color:"white"}}/>
         </div>
         <div className="active-buttons">
-        <a href="#" className="btn-card">SOURCE CODE</a>
+        <a href="#" className="btn-card">SOURCE</a>
         <a href="https://dsubhajit.in" className="btn-card">DEMO</a>
         </div>
       </div>
@@ -54,7 +54,7 @@ const Card = (props) => {
         <SiMongodb size={30} style={{color:"white"}}/>
         </div>
         <div className="active-buttons">
-        <a href="#" className="btn-card">SOURCE CODE</a>
+        <a href="#" className="btn-card">SOURCE</a>
         <a href="#" className="btn-card">DEMO</a>
         </div>
       </div>
@@ -67,7 +67,7 @@ const Card = (props) => {
         <AiFillHtml5 size={30} style={{color:"white"}}/>
         </div>
         <div className="active-buttons">
-        <a href="#" className="btn-card">SOURCE CODE</a>
+        <a href="#" className="btn-card">SOURCE</a>
         <a href="#" className="btn-card">DEMO</a>
         </div>
       </div>

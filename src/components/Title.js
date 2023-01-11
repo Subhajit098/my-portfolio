@@ -15,7 +15,7 @@ const Title = () => {
              <img className='intro-img' src={IntroImg} alt="IntroImg"></img> 
         </div>
          <div className='content'>
-          <p>HI, I'M SUBHAJIT</p>
+          <p className="heading_para">HI, I'M SUBHAJIT</p>
           <h1>a {""}
 
           <span style={{ color: 'hsl(351deg 56% 97%)', fontWeight: 'bold' }}>

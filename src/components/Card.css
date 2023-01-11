@@ -8,8 +8,8 @@
 }
 
 .card{
-    width: 310px;
-    margin: 20px 30px;
+    width: 340px;
+    margin: 20px 13px;
     border-radius: 15px;
     border: 5px solid rgb(244, 167, 180);
     position: relative;
@@ -70,11 +70,11 @@ a.disabled:hover{
     padding: 15px 20px;
     display: block;
     text-align: center;
-    margin: 10px 50px;
+    margin: 10px 70px;
 }
 
 .card:hover{
-    background-color: rgb(66, 57, 57);
+    background-color: rgb(29 29 32);
     color:white;
     cursor: pointer;
     transform: scale(1.10);
@@ -105,7 +105,8 @@ a.disabled:hover{
 
 @media (min-width:1082px) and (max-width:1436px){
 .card{
-    width: 370px;
+    width: 420px;
+    margin: 40px 50px;
 }
 }
 

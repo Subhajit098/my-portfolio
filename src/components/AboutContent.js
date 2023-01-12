@@ -7,15 +7,7 @@ import myImg from "../assets/cropped.png";
 
 const AboutContent = () => {
 
-  const ColoredLine = ({ color }) => (
-    <hr
-        style={{
-            color: color,
-            backgroundColor: color,
-            height: 5
-        }}
-    />
-);
+  
 
 
 
@@ -46,6 +38,10 @@ minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>
           
         </div>
 
+        
+
+        <hr />
+
         <div className="right">
         <h3 style={{
           margin:"10px 0px",
@@ -69,6 +65,7 @@ minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>
 
         </div>
 
+     
 
         <div className="exp">
         <h3 style={{

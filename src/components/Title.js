@@ -4,6 +4,7 @@ import { Typewriter } from 'react-simple-typewriter'
 import { BsLinkedin} from "react-icons/bs";
 import { FaQuora,FaGithub } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import {HashLink} from "react-router-hash-link";
 import IntroImg from "../assets/main_bg.jpg";
 
 
@@ -41,7 +42,10 @@ const Title = () => {
 
           </div>
 
-          <button className='btn btn-projects'><Link to="/Project">Projects</Link></button>
+          
+
+          <button className='btn btn-projects'><HashLink to="#projects">Projects</HashLink></button>
+          
 
           <button className='btn btn-projects'><Link to="/Contact">Contact</Link></button>
 

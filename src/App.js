@@ -31,6 +31,7 @@ function App() {
     },3000)
   },[])
   return (
+    
     <div>
     {
       loading?
@@ -44,6 +45,7 @@ function App() {
     }
       
     </div>
+    
   );
 }
 

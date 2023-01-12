@@ -19,6 +19,7 @@
     height: 170px;
     width: 100%;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 
@@ -29,6 +30,7 @@
     object-position: center center;
     margin: auto;
     display: block;
+    border-image:linear-gradient(to right, grey 25%, yellow 25%, yellow 50%,red 50%, red 75%, teal 75%) 5;
 }
 
 

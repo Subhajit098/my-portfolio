@@ -6,7 +6,7 @@ import Card from "./Card";
 
 const RenderProjects = () => {
   return (
-    <div className="wrapper">
+    <div className="wrapper" id="projects">
         <Card/>
     </div>
   );

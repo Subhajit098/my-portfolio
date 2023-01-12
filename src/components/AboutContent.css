@@ -1,18 +1,14 @@
 .about{
-    /* height:90vh; */
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap-reverse; */
     justify-content: center;
-    /* align-items: center; */
 }
 
  .about .right,.about .left{
     width: 50%;
-    margin: 20px 20px;
+    margin: 20px 10px;
     text-align: center;
     color: white;
-    /* background-color: rgb(214, 155, 155); */
 }
 
 .about .left .myImg{
@@ -30,7 +26,6 @@
     object-position: center center;
     margin: auto;
     display: block;
-    border-image:linear-gradient(to right, grey 25%, yellow 25%, yellow 50%,red 50%, red 75%, teal 75%) 5;
 }
 
 

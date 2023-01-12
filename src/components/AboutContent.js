@@ -40,7 +40,7 @@ minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>
 
         
 
-        <hr />
+        <hr style={{height:"5"}}/>
 
         <div className="right">
         

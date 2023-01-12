@@ -64,14 +64,15 @@ a.disabled:hover{
 }
 
 .card a{
-    background-color: black;
+    background-color: rgb(242, 233, 233);
     opacity: 0.8;
-    color: white;
+    color: rgb(209, 51, 67);
     padding: 15px 20px;
     display: block;
     text-align: center;
     margin: 10px 40px;
     border-radius: 20px;
+    font-weight: bolder;
 }
 
 .card:hover{

@@ -40,14 +40,9 @@ recusandae alias error harum maxime adipisci amet laborum. Perspiciatis
 minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>
           </div>
           
-          
           <Link to="/Contact" className="btn btn-padding">Contact</Link>
-          
-          
-          
           <a href="#" className="btn btn-padding">Resume</a>
           
-  
         </div>
 
         <div className="right">
@@ -58,18 +53,18 @@ minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>
         <div className="college">
           <h3 style={{textAlign:"left",padding:"5px",marginTop:"10px"}}>National Institute of Technology Durgapur,2020-2024
           </h3>
-          <p style={{textAlign:"left",padding:"5px"}}><CiPaperplane size={20} color="black"/>  Bachelor of Technology, Electronics and Communication Engineering</p>
+          <p style={{textAlign:"left",padding:"5px"}}><CiPaperplane size={20} color="white"/>  Bachelor of Technology, Electronics and Communication Engineering</p>
           <p style={{textAlign:"left",padding:"5px"}}>
-          <CiPaperplane size={20} color="black"/>  Current CGPA : 8.56/10</p>
+          <CiPaperplane size={20} color="white"/>  Current CGPA : 8.56/10</p>
         </div>
 
 
         <div className="college">
           <h3 style={{textAlign:"left",padding:"5px",marginTop:"10px"}}>Techno India Group Public School,Prantik,2008-2020
           </h3>
-          <p style={{textAlign:"left",padding:"5px"}}><CiPaperplane size={20} color="black"/>  Secondary Class X, CGPA - 9.00</p>
+          <p style={{textAlign:"left",padding:"5px"}}><CiPaperplane size={20} color="white"/>  Secondary Class X, CGPA - 9.00</p>
           <p style={{textAlign:"left",padding:"5px"}}>
-          <CiPaperplane size={20} color="black"/>  Senior Secondary Class XII, Precentage - 71%</p>
+          <CiPaperplane size={20} color="white"/>  Senior Secondary Class XII, Precentage - 71%</p>
 
         </div>
 
@@ -84,28 +79,28 @@ minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>
         <h3 style={{textAlign:"left",padding:"5px",marginTop:"10px"}}>Learner and intern at Business Web Solutions(BWS),2 months</h3>
         
         <p style={{textAlign:"left",padding:"5px"}}>
-          <CiPaperplane size={20} color="black"/>  Completed the tasks provided by the mentor</p>
+          <CiPaperplane size={20} color="white"/>  Completed the tasks provided by the mentor</p>
 
           <p style={{textAlign:"left",padding:"5px"}}>
-          <CiPaperplane size={20} color="black"/>  Submitted the projects under the deadline</p>
+          <CiPaperplane size={20} color="white"/>  Submitted the projects under the deadline</p>
 
 
           <h3 style={{textAlign:"left",padding:"5px",marginTop:"10px"}}>Web Developer intern at GRIP's Foundations (Ongoing)</h3>
         
         <p style={{textAlign:"left",padding:"5px"}}>
-          <CiPaperplane size={20} color="black"/>Made a Basic Banking Website</p>
+          <CiPaperplane size={20} color="white"/>Made a Basic Banking Website</p>
 
           <p style={{textAlign:"left",padding:"5px"}}>
-          <CiPaperplane size={20} color="black"/>Users can commit basic transactions and keep a track of them</p>
+          <CiPaperplane size={20} color="white"/>Users can commit basic transactions and keep a track of them</p>
 
           <h3 style={{textAlign:"left",padding:"5px",marginTop:"10px"}}>Web Developer at Solar Secure Solutions</h3>
         
         <p style={{textAlign:"left",padding:"5px"}}>
-          <CiPaperplane size={20} color="black"/>Completed the projects assigned by the mentor
+          <CiPaperplane size={20} color="white"/>Completed the projects assigned by the mentor
         </p>
 
           <p style={{textAlign:"left",padding:"5px"}}>
-          <CiPaperplane size={20} color="black"/>Learned new skills</p>
+          <CiPaperplane size={20} color="white"/>Learned new skills</p>
 
 
         </div>

@@ -27,7 +27,8 @@ const AboutContent = () => {
           </div>
           <div className="about_me_text">
               <h3>About me...</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+              <p style={{padding:"6px",
+              margin:"16px 0"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
 molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
 numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
 optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis

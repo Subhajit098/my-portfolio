@@ -41,6 +41,16 @@
 }
 
 
+@media screen and (max-width:791px){
+    .about{
+        flex-wrap: wrap;
+    }
+
+    .about .right,.about .left{
+        width: 95%;;
+    }
+}
+
 
 
 

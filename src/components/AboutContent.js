@@ -43,12 +43,15 @@ minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>
         <hr />
 
         <div className="right">
+        
         <h3 style={{
           margin:"10px 0px",
-          fontSize:"25px"
+          fontSize:"25px",
+          textDecoration:"underline"
         }}>Educational Qualifications</h3>
+        
         <div className="college">
-          <h3 style={{textAlign:"left",padding:"5px",marginTop:"10px"}}>National Institute of Technology Durgapur,2020-2024
+          <h3 style={{textAlign:"left",padding:"5px",marginTop:"10px"}}><a href="https://nitdgp.ac.in/" style={{color:"white",textDecoration:"underline"}}>National Institute of Technology Durgapur</a>,2020-2024
           </h3>
           <p style={{textAlign:"left",padding:"5px"}}><CiPaperplane size={20} color="white"/>  Bachelor of Technology, Electronics and Communication Engineering</p>
           <p style={{textAlign:"left",padding:"5px"}}>
@@ -57,7 +60,7 @@ minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>
 
 
         <div className="college">
-          <h3 style={{textAlign:"left",padding:"5px",marginTop:"10px"}}>Techno India Group Public School,Prantik,2008-2020
+          <h3 style={{textAlign:"left",padding:"5px",marginTop:"10px"}}><a href="https://bolpur.tigps.in/" style={{color:"white",textDecoration:"underline"}}>Techno India Group Public School,Prantik</a>,2008-2020
           </h3>
           <p style={{textAlign:"left",padding:"5px"}}><CiPaperplane size={20} color="white"/>  Secondary Class X, CGPA - 9.00</p>
           <p style={{textAlign:"left",padding:"5px"}}>
@@ -69,9 +72,10 @@ minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>
 
         <div className="exp">
         <h3 style={{
-          margin:"10px 0px",
+          margin:"25px 0px",
           fontSize:"25px",
-          color:"white"
+          color:"white",
+          textDecoration:"underline"
         }}>Experiences</h3>
 
         <h3 style={{textAlign:"left",padding:"5px",marginTop:"10px"}}>Learner and intern at Business Web Solutions(BWS),2 months</h3>
@@ -91,7 +95,7 @@ minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>
           <p style={{textAlign:"left",padding:"5px"}}>
           <CiPaperplane size={20} color="white"/>Users can commit basic transactions and keep a track of them</p>
 
-          <h3 style={{textAlign:"left",padding:"5px",marginTop:"10px"}}>Web Developer at Solar Secure Solutions</h3>
+          <h3 style={{textAlign:"left",padding:"5px",marginTop:"10px"}}>Web Developer at Solar Secure Solutions (Ongoing)</h3>
         
         <p style={{textAlign:"left",padding:"5px"}}>
           <CiPaperplane size={20} color="white"/>Completed the projects assigned by the mentor

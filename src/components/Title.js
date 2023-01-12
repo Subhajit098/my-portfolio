@@ -44,7 +44,7 @@ const Title = () => {
 
           
 
-          <button className='btn btn-projects'><HashLink to="#projects">Projects</HashLink></button>
+          <button className='btn btn-projects'><HashLink to="#projects" smooth>Projects</HashLink></button>
           
 
           <button className='btn btn-projects'><Link to="/Contact">Contact</Link></button>

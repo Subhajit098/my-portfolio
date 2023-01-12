@@ -15,7 +15,7 @@
     height: 170px;
     width: 100%;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 
@@ -33,6 +33,11 @@
     margin: 10px 30px;
     border-radius:20px;
     display: inline;
+}
+
+.about .left .myImg img:hover{
+    transform: scale(1.06);
+    transition: 1s;
 }
 
 

@@ -87,7 +87,7 @@ minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>
           <CiPaperplane size={20} color="white"/>  Submitted the projects under the deadline</p>
 
 
-          <h3 style={{textAlign:"left",padding:"5px",marginTop:"10px"}}>Web Developer intern at GRIP's Foundations (Ongoing)</h3>
+          <h3 style={{textAlign:"left",padding:"5px",marginTop:"10px"}}>Web Developer intern at GRIP's Foundations (Ongoing),2months</h3>
         
         <p style={{textAlign:"left",padding:"5px"}}>
           <CiPaperplane size={20} color="white"/>Made a Basic Banking Website</p>
@@ -95,7 +95,7 @@ minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>
           <p style={{textAlign:"left",padding:"5px"}}>
           <CiPaperplane size={20} color="white"/>Users can commit basic transactions and keep a track of them</p>
 
-          <h3 style={{textAlign:"left",padding:"5px",marginTop:"10px"}}>Web Developer at Solar Secure Solutions (Ongoing)</h3>
+          <h3 style={{textAlign:"left",padding:"5px",marginTop:"10px"}}>Web Developer at Solar Secure Solutions (Ongoing),1.5 months</h3>
         
         <p style={{textAlign:"left",padding:"5px"}}>
           <CiPaperplane size={20} color="white"/>Completed the projects assigned by the mentor

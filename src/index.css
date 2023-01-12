@@ -42,7 +42,8 @@ ul{
 .btn:hover{
   background: rgba(228, 34, 66, 0.484);
   color: #fff;
-  transition: 0.5s;  
+  border-radius: 25px;
+  transition: 1s;  
   transform: scale(1.09);
 }
 

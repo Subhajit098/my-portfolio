@@ -10,7 +10,7 @@
 .card{
     width: 340px;
     margin: 20px 13px;
-    border-radius: 15px;
+    border-radius: 20px;
     border: 5px solid rgb(244, 167, 180);
     position: relative;
 }
@@ -70,14 +70,15 @@ a.disabled:hover{
     padding: 15px 20px;
     display: block;
     text-align: center;
-    margin: 10px 70px;
+    margin: 10px 40px;
+    border-radius: 20px;
 }
 
 .card:hover{
     background-color: rgb(29 29 32);
     color:white;
     cursor: pointer;
-    transform: scale(1.10);
+    transform: scale(1.08);
     transition: all 1s ease;
 }
 

@@ -51,6 +51,10 @@
     font-weight: bold;
 }
 
+.content .heading__content{
+    height: 15%;
+}
+
 .btn-projects{
     margin: 10px 15px;
 }
@@ -69,6 +73,12 @@
 {
     .hero .content p{
         color:rgb(242, 121, 139);
+    }
+}
+
+@media screen and (max-width:1245px){
+    .heading__content{
+        height: 140px;
     }
 }
 

@@ -8,15 +8,18 @@ const ContactForm = () => {
 
   const Wrapper = styled.section``;
 
+  const submitHandler=async (event) =>{
+      event.preventDefault();
+  }
+
   return (
     <Wrapper className="section">
-      <h2 className="contact-heading">Connect with me</h2>
+      <h2 className="contact-heading">Lets connect</h2>
       <React.Suspense fallback={<h1 style={{ color: "white" }}>Loading...</h1>}>
         <LazyMap />
       </React.Suspense>
 
       <div className="container__form">
-
 
         {/* Left component */}
 
@@ -31,11 +34,11 @@ const ContactForm = () => {
             </div>
 
             <div className="center-element">
-              <textarea name="message" cols="30" row="6" autoComplete="on" placeholder="Enter your message" required >
+              <textarea name="message" cols="30" row="6" autoComplete="on" placeholder="Enter your message" required>
               </textarea>
             </div>
 
-            <div><input type="submit" value="send" className="btn"></input></div>
+            <div><input type="submit" value="send" className="btn" ></input></div>
 
           </form>
         </div>

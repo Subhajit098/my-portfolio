@@ -74,22 +74,6 @@ export default ContactForm;
 
 
 
-{/* <div className="container-flex form-container-flex">
-
-
-</div>
-<div className="container-flex">
-<h2>Ask me about</h2>
-  <ul>
-    <li>Projects</li>
-    <li>Technologies</li>
-    <li>Analytical and complex Problems</li>
-    <li>Open Source</li>
-    <li>Machine Learning</li>
-    <li>Blockchain Technology</li>
-    <li>Cloud Computing</li>
-  </ul>
-</div> */}
 
 
 

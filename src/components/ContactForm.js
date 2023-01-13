@@ -11,7 +11,9 @@ const ContactForm = () => {
   const [state, handleSubmit] = useForm(process.env.REACT_APP_ID);
 
   if (state.succeeded) {
-    return <p>Thanks for your submission!</p>;
+    return (<div style={{width:"100%",height:"20vh",color:"black"}}>
+        <h1 style={{color:"white"}}>Thank you for Submitting the form!</h1>
+    </div>);
   }
 
   const Wrapper = styled.section``;
@@ -28,7 +30,7 @@ const ContactForm = () => {
         {/* Left component */}
 
         <div className="left-contact">
-          <form action="https://formspree.io/f/mknanowg" method="POST" className="container-form" onSubmit={handleSubmit}>
+          <form action="https://formspree.io/f/mknanowg" method="POST" className="container-form">
             <div className="center-element">
               <input type="text" name="username" placeholder="name" autoComplete="on" required></input>
               <ValidationError prefix="Name" field="name" errors={state.errors} />

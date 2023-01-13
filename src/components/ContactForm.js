@@ -15,7 +15,7 @@ const ContactForm = () => {
         <LazyMap />
       </React.Suspense>
 
-      <div className="container">
+      <div className="container__form">
 
 
         {/* Left component */}
@@ -43,7 +43,9 @@ const ContactForm = () => {
 
         {/* Right Component */}
         <div className="right-contact">
-          <h2>Ask me about</h2>
+
+        <div className="container-flex">
+        <h2>Ask me about</h2>
           <ul>
             <li>Projects</li>
             <li>Technologies</li>
@@ -53,6 +55,8 @@ const ContactForm = () => {
             <li>Blockchain Technology</li>
             <li>Cloud Computing</li>
           </ul>
+        </div>
+          
         </div>
       </div>
     </Wrapper>

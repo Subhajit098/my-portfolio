@@ -56,11 +56,17 @@ a.disabled:hover{
     padding: 5px;
     color: rgb(171, 24, 36);
     text-decoration:underline;
+    text-align: center;
 }
 
 .card p{
     padding: 4px;
     margin-bottom: 15px;
+    text-align: center;
+}
+
+.card .icons-container{
+    text-align: center;
 }
 
 .card a{

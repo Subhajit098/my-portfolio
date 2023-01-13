@@ -10,32 +10,28 @@ h2.contact-heading{
     padding-bottom: 20px;
 }
 
-.container{
+.container__form{
     display: flex;
     width: 100%;
     justify-content: center;
-    /* flex-wrap: wrap; */
+    margin-top: 15px;
+    /* flex-wrap: wrap-reverse; */
+    /* align-items: center; */
     /* margin-top: 0.5rem;
     text-align: center;
     justify-content:center; */
 }
 
 .left-contact, .right-contact{
-    width: 45%;
-    background-color: white;
-    border: 4px solid white;
+    width: 46%;
+    /* background-color: white; */
     margin: 10px 20px;
     text-align: center;
 }
 
 
-
-/* .container-flex{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 5px 100px;
-    width: 300px;
+.container-flex{
+    margin: 15px 0;
 }
 
 .container-flex h2{
@@ -45,6 +41,7 @@ h2.contact-heading{
     padding: 4px 0;
     text-decoration: underline;
     font-size: 40px;
+    text-align: center;
 }
 
 .container-flex ul{
@@ -56,22 +53,19 @@ h2.contact-heading{
     list-style-type: disc;
     text-align: left;
     font-size: 1.5rem;
+    margin: 10px 0;
+    margin-left: 12%;
 }
 
 .container-form{
-    display: flex;
-    flex-direction: column;
     border-radius: 20px;
     border: 5px solid rgb(218, 59, 85);
-    width:100%;
 }
 
-.center-element{
-    max-width: 100%;
-} */
+
 
 input,textarea{
-    width: 90%;
+    width: 85%;
     padding: 1rem 0.5rem;
     border: 5px solid rgb(218, 59, 85);
     text-transform: uppercase;
@@ -79,39 +73,33 @@ input,textarea{
     border-radius: 10px;
 }
 
+input[type="submit"]{
+    width: 90%;
+    padding: 1rem 0.5rem;
+    text-transform: uppercase;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
 textarea{
     resize: none;
-    width: 100%;
+    width: 90%;
     height: 150px;
 }
 
-
-
-
-
-
-
-
-/* .form-container-flex{
-    width:400px;
-} */
-
-/* @media (min-width:700px) and (max-width:1037px){
-    .container-flex{
-        margin: 5px 30px;
-        width: 300px;
-     }
- } 
-
-@media (max-width:700px) and (min-width:660px){
-    .container{
-        align-items: center;
+@media screen and (max-width:780px){
+    .container__form{
+        flex-wrap: wrap-reverse;
     }
-    .container-flex{
-        margin: 5px 20px;
-        width: 300px;
-    } 
-} 
- */
+
+    .left-contact,.right-contact{
+        width: 90%;
+    }
+
+    .left-contact{
+        margin-bottom: 20px;
+    }
+}
+
 
 

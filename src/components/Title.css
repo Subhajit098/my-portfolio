@@ -47,6 +47,8 @@
     font-weight: 200;
     text-transform: uppercase;
     color: rgb(218, 59, 85);
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .btn-projects{

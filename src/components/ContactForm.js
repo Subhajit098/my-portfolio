@@ -10,11 +10,11 @@ const ContactForm = () => {
 
   // const [state, handleSubmit] = useForm(process.env.REACT_APP_ID);
 
-  if (state.succeeded) {
-    return (<div style={{width:"100%",height:"20vh",color:"black"}}>
-        <h1 style={{color:"white"}}>Thank you for Submitting the form!</h1>
-    </div>);
-  }
+  // if (state.succeeded) {
+  //   return (<div style={{width:"100%",height:"20vh",color:"black"}}>
+  //       <h1 style={{color:"white"}}>Thank you for Submitting the form!</h1>
+  //   </div>);
+  // }
 
   const Wrapper = styled.section``;
 
@@ -33,22 +33,19 @@ const ContactForm = () => {
           <form action="https://formspree.io/f/mknanowg" method="POST" className="container-form">
             <div className="center-element">
               <input type="text" name="username" placeholder="name" autoComplete="on" required></input>
-              <ValidationError prefix="Name" field="name" errors={state.errors} />
             </div>
 
             <div className="center-element">
               <input type="email" name="Email" placeholder="Email" autoComplete="on" required></input>
-              <ValidationError prefix="Email" field="email" errors={state.errors} />
             </div>
 
             <div className="center-element">
               <textarea name="message" cols="30" row="6" autoComplete="on" placeholder="Enter your message" required>
               </textarea>
-              <ValidationError prefix="Message" field="message" errors={state.errors} />
             </div>
 
-            <div><input type="submit" value="send" className="btn" disabled={state.submitting}></input>
-            <ValidationError errors={state.errors} />
+            <div>
+            <input type="submit" value="send" className="btn"></input>
             </div>
 
           </form>

@@ -8,7 +8,7 @@ const LazyMap = React.lazy(() => import("./Location"));
 const ContactForm = () => {
 
 
-  const [state, handleSubmit] = useForm(process.env.REACT_APP_ID);
+  // const [state, handleSubmit] = useForm(process.env.REACT_APP_ID);
 
   if (state.succeeded) {
     return (<div style={{width:"100%",height:"20vh",color:"black"}}>

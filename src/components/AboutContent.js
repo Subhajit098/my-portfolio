@@ -18,7 +18,7 @@ const AboutContent = () => {
             fontSize:"25px"
           }}>About me...</h3>
           <p style={{
-            padding: "6px",
+            padding: "4px",
             margin: "16px 0"
           }}>I am Subhajit Dey,an aspiring Software Developer and Enginner who loves to learn and code new technologies .
             I have prior experience in the backend and frontend technologies including React, Node, MongoDB, Express, Python, Javascript, Django, Bootstrap and sound knowledge of C++, Object Oriented Programming. My objective is to use my skills and abilities for a company which is innovative and that provides me job satisfaction and self-development so that I would be able to help myself and the company achieve its goal. For the future, I hope I could work in an organization which is leading on this . I always want to push myself more and keep getting better . Having interested in internships, full time job opportunities and projects in Software Development , feel free to connect with me.</p>

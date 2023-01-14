@@ -46,7 +46,7 @@ const Card = (props) => {
         </div>
         <div className="active-buttons">
         <a href="https://github.com/Subhajit098/expense-tracker" className="btn-card">SOURCE</a>
-        <a href="https://dsubhajit.in" className="btn-card disabled">DEMO</a>
+        <a className="btn-card disabled">DEMO</a>
         </div>
       </div>
 
@@ -65,7 +65,7 @@ const Card = (props) => {
         </div>
         <div className="active-buttons">
         <a href="https://github.com/Subhajit098/TodoList-Application" className="btn-card">SOURCE</a>
-        <a href="#" className="btn-card disabled">DEMO</a>
+        <a className="btn-card disabled">DEMO</a>
         </div>
       </div>
 
@@ -81,7 +81,7 @@ const Card = (props) => {
         </div>
         <div className="active-buttons">
         <a href="https://github.com/Subhajit098/The-Simon-Game" className="btn-card">SOURCE</a>
-        <a href="#" className="btn-card disabled">DEMO</a>
+        <a className="btn-card disabled">DEMO</a>
         </div>
       </div>
 

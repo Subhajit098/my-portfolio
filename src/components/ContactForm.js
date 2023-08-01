@@ -56,7 +56,7 @@ const ContactForm = () => {
         <div className="right-contact">
 
         <div className="container-flex">
-        <h2>Ask me about</h2>
+        <h2>My Interests</h2>
           <ul>
             <li>Projects</li>
             <li>Technologies</li>

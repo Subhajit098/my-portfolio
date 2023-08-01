@@ -13,7 +13,7 @@ const Title = () => {
   return (
     <div className='hero'>
       <div className='mask'>
-        <img className='intro-img' src={IntroImg} alt="IntroImg"></img>
+        {/* <img className='intro-img' src={IntroImg} alt="IntroImg"></img> */}
       </div>
       <div className='content'>
         <p className="heading_para">HI, I'M SUBHAJIT</p>

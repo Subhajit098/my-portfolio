@@ -1,5 +1,6 @@
 import "./Card.css";
 import React from 'react';
+import { useEffect } from "react";
 import {GrNode} from "react-icons/gr";
 import {SiExpress} from "react-icons/si";
 import {SiMongodb} from "react-icons/si";
@@ -8,14 +9,22 @@ import {AiFillHtml5} from "react-icons/ai";
 import {SiJavascript} from "react-icons/si";
 import {SiBootstrap} from "react-icons/si";
 import {SiCsswizardry} from "react-icons/si";
+import AOS from "aos";
 
 
 
 const Card = (props) => {
+
+
+  useEffect(()=>{
+    AOS.init({duration:2000});
+  },[]);
+
   return (
     <section className="container">
-
-      <div className="card">
+    
+  
+      <div className="card" data-aos="zoom-in">
         <div className="card-image card-1"></div>
         <h2>Secrets Keeper</h2>
         <p>This app allows users to share their secrets with anonymous names of their particular type and authorizes them to sign in via OAuth2.0 .</p>
@@ -33,6 +42,7 @@ const Card = (props) => {
         <a className="btn-card disabled">DEMO</a>
         </div>
       </div>
+     
 
       <div className="card">
         <div className="card-image card-2"></div>

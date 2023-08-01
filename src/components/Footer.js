@@ -3,9 +3,11 @@ import React from 'react'
 import { FcHome } from "react-icons/fc";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsTelephoneFill } from "react-icons/bs";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const Footer = () => {
     return (
+        <ScrollAnimation animateIn='fadeIn'>
         <div className="footer">
 
             <div className="footer-container">
@@ -36,6 +38,7 @@ const Footer = () => {
             </div>
 
         </div>
+        </ScrollAnimation>
     )
 }
 

@@ -1,10 +1,12 @@
 .footer{
     width: 100%;
     padding: 4% 0;
-    background-color:rgba(6,7,11,255);
-    background-blend-mode: multiply;
+    /* background-color:rgb(12, 12, 24); */
+    /* background-blend-mode: multiply; */
     border-style: groove;
     border: 3px rgba(5,5,3,255);
+    position: relative;
+    margin-top: 80px;
 }
 
 /* rgba(6,7,11,255) */

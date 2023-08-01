@@ -10,7 +10,12 @@
 body{
   background: rgb(3, 1, 16);
   opacity: 0.8;
+  /* changing */
 }
+
+
+/* changing */
+
 
 
 h1,h4,p,a{
@@ -66,7 +71,11 @@ ul{
 }
 
 ::-webkit-scrollbar{
-  width:0.9rem;
+  width:0.6rem;
+}
+
+::-webkit-scrollbar:hover{
+  background-color: white;
 }
 
 ::-webkit-scrollbar-track{
@@ -79,6 +88,7 @@ ul{
   -webkit-background-clip: content-box;
   height:10%;
 }
+
 
 
 

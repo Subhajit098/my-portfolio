@@ -49,7 +49,7 @@ ul{
 .btn:hover{
   background: rgba(228, 34, 66, 0.484);
   color: #fff;
-  transition: 0.8s ease-in;  
+  transition: 0.3s ease-in;  
   transform: scale(1.09);
 }
 

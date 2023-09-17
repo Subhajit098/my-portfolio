@@ -17,7 +17,9 @@ const AboutContent = () => {
           <h3 style={{
             fontSize:"25px"
           }}>About me...</h3>
-          <p style={{
+
+            
+         <p style={{
             padding: "4px",
             margin: "16px 0"
           }}>I am Subhajit Dey,an aspiring Software Developer and Enginner who loves to learn and code new technologies .
